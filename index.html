@@ -10,21 +10,21 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <script type="javascript" src="js/script.js" defer></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
     <title>Form biglietto treno</title>
 </head>
 
 <body>
     <form>
         <label for="userName">Nome Cognome:</label><br>
-        <input type="text" id="userName"><br>
+        <input type="text" id="userName" value=""><br>
         <label for="distance">Km da percorrere:</label><br>
-        <input type="text" id="distance"><br>
+        <input type="text" id="distance" value=""><br>
         <label for="age">Fascia d'età:</label><br>
-        <input type="text" id="age"><br>
-        <input type="button" value="Calcola"><br><br><br>
+        <input type="text" id="age" value=""><br>
+        <input type="button" id="btn" value="Calcola"><br><br><br>
         <label for="priceTicket">Prezzo biglietto:</label><br>
-        <input type="text" id="priceTicket">
+        <p id="totalPrice"></p>
     </form>
 </body>
 
