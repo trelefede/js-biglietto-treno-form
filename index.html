@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="bg-brown text-center">
+    <div class="bg-brown text-center pb-5">
 
         <!-- ticket calc -->
         <h2 class="pt-3">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
@@ -51,9 +51,34 @@
 
         <!-- ticket print -->
         <h2>IL TUO BIGLIETTO</h2>
-        <section id="ticketPrint">
-
-            <p id="totalPrice"></p>
+        <section class="bg-white text-brown mx-5 rounded mb-4 text-start" id="ticketPrint">
+            <div class="container-big py-4 px-4">
+                <h5 class="fw-bold">DETTAGLIO PASSEGGERI</h5>
+                <div class="container border border-end-0 border-secondary">
+                    <div class="row">
+                        <div class="col-3 bg-secondary">
+                            <h6 class="fw-bold mt-3">NOME PASSEGGERO</h6>
+                            <p class="fw-bold">Da definire</p>
+                        </div>
+                        <div class="col">
+                            <p class="fw-bold my-3">Offerta</p>
+                            <p class="my-3">Biglietto standard</p>
+                        </div>
+                        <div class="col">
+                            <p class="fw-bold my-3">Carrozza</p>
+                            <p class="my-3">5</p>
+                        </div>
+                        <div class="col">
+                            <p class="fw-bold my-3">Codice CP</p>
+                            <p class="my-3">920222</p>
+                        </div>
+                        <div class="col">
+                            <p class="fw-bold my-3">Prezzo biglietto</p>
+                            <p class="my-3" id="totalPrice">Da definire</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 
