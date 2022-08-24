@@ -16,9 +16,25 @@ img {
     width: 100%;
 }
 
+h2 {
+    color: white;
+    font-weight: bold;
+}
+
 
 /*** UTILITIES ***/
 
+.bg-brown {
+    background-color: brown;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.text--brown {
+    color: brown;
+}
 
 
 /*** CONTENT ***/
